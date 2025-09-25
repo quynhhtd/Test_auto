@@ -13,6 +13,7 @@ async function fillData(page, calendar: string, staff: string[], handle: string[
   if(handle.length > 0){
     await page.selectOption('select[name="handle"]', handle.map(label => ({ label })));
   }
+  //test
   if(activity.length > 0){
     await page.selectOption('select[name="activity"]', activity.map(label => ({ label })));
   }
