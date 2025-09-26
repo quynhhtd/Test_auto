@@ -6,7 +6,7 @@ export const dataAddNewReport = {
             staff: [],
             handle: [],
             activity: [],
-            notes: []
+            notes:""
         },
         {
             id: 2,
@@ -31,6 +31,22 @@ export const dataAddNewReport = {
             handle: ["staff1", "staff2"],
             activity: ["1,2"],
             notes: ">5000 kí tự"
+        },
+        {
+            id: 5,
+            calendar: "today",
+            staff: ["staff1", "staff2"],
+            handle: ["staff1", "staff2"],
+            activity: ["1,2"],
+            notes: "5000 kí tự"
+        },
+        {
+            id: 5,
+            calendar: "today",
+            staff: ["staff1", "staff2"],
+            handle: ["staff1", "staff2"],
+            activity: ["1,2"],
+            notes: "test cancel"
         }
     ]
 }
